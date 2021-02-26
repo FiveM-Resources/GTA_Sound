@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-global
+{
+  position: relative;
+  display: flex;
+  margin-left: 50vh;
+  margin-top: 10vh;
+  width: 952px;
+  height: 400px;
+  background-color: rgba(27, 27, 27, 0.719);
+  overflow:auto;
+  display: none;
+}
+
+header
+{
+  position: absolute;
+  top: 	0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.719);
+}
+
+button.close-button
+{
+  position: absolute;
+  padding: 2px 5px;
+  left: 895px;
+  top: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+button.close-button:hover
+{
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+h2
+{
+  margin-left: 40vh;
+  margin-top: 10px;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.flex-box-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 50px;
+  padding-bottom: 10px;
+}
+
+button.item
+{
+  background-color: rgba(29, 29, 29, 0.719);
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  width: 300px;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+button.item:hover
+{
+  background-color: rgba(100, 100, 100, 0.719);
+  border-radius: 15px;
+}
